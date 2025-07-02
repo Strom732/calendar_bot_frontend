@@ -22,7 +22,7 @@ if user_input:
     # Send request to FastAPI
     try:
         with st.spinner("Booking..."):
-            res = requests.post(API_URL, json={"user_input": user_input})
+            res = requests.post(f"{API_URL}/chat", json={"user_input": user_input})
             res_json = res.json()
 
             # Extract response
