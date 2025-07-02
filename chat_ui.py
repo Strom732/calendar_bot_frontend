@@ -2,7 +2,7 @@ import streamlit as st
 import requests
 
 # Backend URL
-API_URL = "https://calendar-bot-backend.onrender.com"
+API_URL = "http://0.0.0.0:10000"
 
 # Streamlit UI
 st.set_page_config(page_title="Calendar Bot 🤖", layout="centered")
