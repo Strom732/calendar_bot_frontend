@@ -2,7 +2,7 @@ import streamlit as st
 import requests
 
 # Backend URL
-API_URL = "http://127.0.0.1:8000/chat"
+API_URL = "http://127.0.0.1:8000/chat , http://0.0.0.0:10000"
 
 # Streamlit UI
 st.set_page_config(page_title="Calendar Bot 🤖", layout="centered")
